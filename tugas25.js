@@ -8,7 +8,7 @@ function dualima() {
     var dl = angka.filter(function (no) {
         return no > 10;
     });
-    console.log("Filter > : ", dl.toString())
+    console.log("Filter > 10 : ", dl.toString())
 }
 
 dualima()
